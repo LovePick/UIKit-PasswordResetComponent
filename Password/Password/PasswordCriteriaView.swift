@@ -60,6 +60,9 @@ extension PasswordCriteriaView {
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.spacing = 8
+     
+    
+        
   
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.image = UIImage(systemName: "circle")!.withTintColor(.tertiaryLabel, renderingMode: .alwaysOriginal)
@@ -67,7 +70,6 @@ extension PasswordCriteriaView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .preferredFont(forTextStyle: .subheadline)
         label.textColor = .secondaryLabel
-        label.text = "uppercase letter (A-Z)"
         
     }
     
